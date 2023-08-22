@@ -1,0 +1,12 @@
+/** @format */
+/* ! font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap');
+/* ? predfined css colors  */
+:root {
+  --orange: #da722c;
+  --blue: #057ada;
+  --white-blue: #e8f7fb;
+  --dark-green: #023047;
+  --black: #070917;
+  --light-voilet: #6f7dfb;
+}
