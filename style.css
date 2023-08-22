@@ -1,7 +1,18 @@
 /** @format */
 /* ! font link  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
 /* ? predfined css colors  */
+
 :root {
   --orange: #da722c;
   --blue: #057ada;
@@ -9,4 +20,168 @@
   --dark-green: #023047;
   --black: #070917;
   --light-voilet: #6f7dfb;
+}
+
+/* ? header css */
+
+header {
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+/* ? navigation bar css  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.log {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 48px;
+  margin-left: 116px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  margin-top: 48px;
+  margin-right: 60px;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* ? button css  */
+
+a.btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+a.btn.drak {
+  background: var(--dark-green);
+}
+
+a.btn.light {
+  background: var(--orange);
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  margin-left: 116px;
+}
+
+/* ? left side css  */
+
+.left {
+  flex: 1;
+}
+
+.left > h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 125%;
+  margin-bottom: 18px;
+}
+
+.left > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+/* ? right side css */
+
+.right img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: 59px;
+  left: -45px;
+}
+
+/* ? achievement css  */
+
+.achievement-card {
+  color: var(--dark-green);
+  display: flex;
+  justify-content: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.students-enrolled > .card-content {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 2px 3px 10px #6f7dfb, 7px 8px #3b448f;
+  width: 206px;
+  height: 90px;
+  position: absolute;
+  top: 323px;
+  right: 537px;
+  bottom: 355px;
+  left: 623px;
+}
+
+div.overall-rating > .card-content {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 2px 3px 8.5px #6f7dfb, 7px 8px #3b448f;
+  width: 183px;
+  height: 90px;
+  position: absolute;
+  top: 562px;
+  right: 594;
+  bottom: 116px;
+  left: 589px;
+}
+
+.card-content > h3,
+span > h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.card-content > p,
+span > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.card-content > span {
+  display: flex;
+  justify-content: center;
 }

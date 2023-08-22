@@ -1,8 +1,0 @@
-=>colors we need to use{
-    orange:#DA722C;
-    blue:#057ADA;
-    light-blue:#E8F7FB;
-    dark-green:#023047;
-    black:#070917;
-    lavander:#6F7DFB;
-}
